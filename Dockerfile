@@ -1,7 +1,7 @@
 #I specify the parent base image which is the python version 3.7
 FROM python:3.7
 
-MAINTAINER aminu israel <aminuisrael2@gmail.com>
+LABEL org.opencontainers.image.authors="msk88.in@gmail.com"
 
 # This prevents Python from writing out pyc files
 ENV PYTHONDONTWRITEBYTECODE 1
